@@ -47,7 +47,7 @@ Q=function(W,D,M,body,laHash,lash,L,LL,index,popstate,VS,Regex,key,Q){
 			if(o.key!==undefined)
 				key=o.key;
 
-			index=o.index||'V';
+			index=o.index;
 
 			if(o.pop&&typeof o.pop=='function')
 				Q.pop=o.pop;
